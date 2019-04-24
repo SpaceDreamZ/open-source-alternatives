@@ -1,0 +1,27 @@
+.appCard {
+    margin: 20px;
+    border: #282c34;
+    border-style: solid !important;
+    border-width: 1px !important;
+    box-shadow: 10px 10px #61dafb;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #61dafb;
+    border-color: #61dafb;
+    margin: 4px;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+}
+
+.card-header {
+    background-color: #282c34;
+    color: #fff; 
+}
+
+.card-footer {
+    background-color: #282c34;
+    color: #fff;
+}

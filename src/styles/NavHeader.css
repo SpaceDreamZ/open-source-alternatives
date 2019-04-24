@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #20232A;
+    
+}
+
+.navitems {
+    color: #ffffff;
+}
+
+.mx-auto {
+    padding-left: 0px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #61DAFB;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.img-fluid {
+    margin-bottom: 2rem;
+}
+
+.fa {
+    font-size: 7em;
+}

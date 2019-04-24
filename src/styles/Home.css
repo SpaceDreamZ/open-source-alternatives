@@ -1,0 +1,17 @@
+.text-white {
+    color: #000 !important;
+}
+.bg-primary {
+    background-color: #fff !important;
+}
+
+.card {
+    border: #fff;
+    border-style: none !important;
+    margin: none !important; 
+}
+
+.card-title {
+    text-align: center;
+    color: #808080;
+}
