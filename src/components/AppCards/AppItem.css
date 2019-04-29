@@ -1,9 +1,9 @@
 .appCard {
-    margin: 20px;
-    border: #282c34;
+    margin-bottom: 2rem;
+    /*border: #282c34;
     border-style: solid !important;
-    border-width: 1px !important;
-    box-shadow: 10px 10px #61dafb;
+    border-width: 1px !important;*/
+    box-shadow: 0 5px 5px rgba(0,0,0,0.50), 0 5px 5px rgba(0,0,0,0.50);
 }
 
 .btn-primary {
@@ -14,6 +14,13 @@
     display: inline-block;
     width: 120px;
     height: 40px;
+}
+
+.btn-primary:hover {
+    color: #61dafb;
+    background-color: #2C3037;
+    box-shadow: 1px 1px 1px #61dafb;
+    border-color: #61dafb;
 }
 
 .card-header {

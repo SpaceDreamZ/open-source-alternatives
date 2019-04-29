@@ -3,12 +3,12 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from "react-bootstrap/Nav"
 import {Route, NavLink, HashRouter} from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap';
-import "../styles/NavHeader.css"
-import Home from "./Home";
-import Productivity from "./Productivity";
-import Entertainment from "./Entertainment";
-import Security from "./Security";
-import Utility from "./Utility";
+import "./NavHeader.css"
+import Home from "../HomePage/Home";
+import Productivity from "../ProductivityPage/Productivity";
+import Entertainment from "../EntertainmentPage/Entertainment";
+import Security from "../SecurityPage/Security";
+import Utility from "../UtilityPage/Utility";
 import Image from "react-bootstrap/Image";
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -57,7 +57,7 @@ class NavHeader extends Component {
             </Nav>
             <Nav className="ml-auto">
             <Nav.Item>
-                <Nav.Link href="https://github.com/" target="_blank"><i className="fa fa-github"></i></Nav.Link>
+                <Nav.Link href="https://github.com/mpmcaj/open-source-alternatives" target="_blank"><i className="fa fa-github fa-2x"></i></Nav.Link>
                 </Nav.Item>
             </Nav>
         </Navbar>

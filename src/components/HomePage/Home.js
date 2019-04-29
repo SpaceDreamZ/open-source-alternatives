@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import "../styles/Home.css"
+import "./Home.css"
 
 
 class Home extends Component {
@@ -40,11 +40,12 @@ class Home extends Component {
         </Col>
 
       </Row>
+      
       <hr/>
 
       <Row>
         <Col>
-        <Card bg="primary" text="white" style={{ width: '33rem', height: '15rem', paddingTop: '4rem', paddingBottom: '4rem'}}>
+        <Card bg="primary" text="white" style={{ width: '33rem', height: '15rem'}}>
             <Card.Body>
               <Card.Title>What Can You Find Here?</Card.Title>
               <Card.Text>
@@ -59,7 +60,7 @@ class Home extends Component {
         </Col>
 
         <Col>
-        <Card bg="primary" text="white" style={{ width: '33rem', height: '15rem', paddingTop: '4rem', paddingBottom: '4rem' }}>
+        <Card bg="primary" text="white" style={{ width: '33rem', height: '15rem'}}>
             <Card.Body>
               <Card.Title>Want To Contribute And Grow The List?</Card.Title>
               <Card.Text>

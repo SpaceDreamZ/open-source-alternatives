@@ -16,7 +16,7 @@ const entertainmentData = [
       title: "Amarok",
       uses: "Audio Player",
       description: `Amarok is a free and open source  music player licensed under the GNU 
-      General Purpose License Version 2. It can be used to listen to music as well as managing  
+      General Public License Version 2. It can be used to listen to music as well as managing  
       and editing collections.` ,
       platforms: "Windows, OS X, and Linux",
       alternative: "iTunes",

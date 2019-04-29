@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import NavHeader from "./components/NavHeader";
+import NavHeader from "./components/Nav/NavHeader";
 
  
 ReactDOM.render(

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AppItem from "./AppItem";
+import AppItem from "../AppCards/AppItem";
 import utilityData from "./utilityData";
 
 class Utility extends Component {
